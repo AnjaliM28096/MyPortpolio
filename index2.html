@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anjali Kumari - Portfolio</title>
+  <link rel="stylesheet" href="style2.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <a href="#home">Anjali Kumari</a>
+      </div>
+      <div class="nav-menu" id="nav-menu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#blog" class="nav-link">Blog</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <div class="nav-toggle" id="nav-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sidebar -->
+  <div class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <img src="images/MysideBar.png" class="sidebar-avatar">
+      <h3>Anjali Kumari</h3>
+      <p>Software Developer</p>
+    </div>
+    <div class="sidebar-menu">
+      <a href="#home" class="sidebar-link active"><i class="fas fa-home"></i> Home</a>
+      <a href="#about" class="sidebar-link"><i class="fas fa-user"></i> About</a>
+      <a href="#skills" class="sidebar-link"><i class="fas fa-code"></i> Skills</a>
+      <a href="#projects" class="sidebar-link"><i class="fas fa-folder"></i> Projects</a>
+      <a href="#experience" class="sidebar-link"><i class="fas fa-briefcase"></i> Experience</a>
+      <a href="#blog" class="sidebar-link"><i class="fas fa-blog"></i> Blog</a>
+      <a href="#contact" class="sidebar-link"><i class="fas fa-envelope"></i> Contact</a>
+    </div>
+    <div class="sidebar-social">
+      <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+      <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+      <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+
+  <!-- Sidebar Toggle -->
+  <button class="sidebar-toggle" id="sidebar-toggle">
+    <i class="fas fa-bars"></i>
+  </button>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- Home Section -->
+    <section id="home" class="section hero-section">
+      <div class="hero-background"></div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <p class="hero-greeting">Hey there, Welcome to My Space! 👋</p>
+            <h1 class="hero-title">I'm Anjali Kumari</h1>
+            <h2 class="hero-subtitle">Innovating at the Forefront of Tech</h2>
+            <div class="hero-buttons">
+              <a href="#" class="btn btn-primary" id="download-cv">
+                <i class="fas fa-download"></i> Download CV
+              </a>
+              <a href="#" class="btn btn-secondary">
+                <i class="fab fa-linkedin"></i> Connect on LinkedIn
+              </a>
+              <a href="#" class="btn btn-secondary">
+                <i class="fab fa-github"></i> View GitHub
+              </a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="profile-card">
+              <img src="images/image.svg" alt="Anjali Kumari" class="profile-img">
+              <div class="profile-glow"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Aspiring Software Engineer</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <p class="about-description">
+              Anjali Maurya, a third-year B.Tech (Information Technology) student, is passionate about AI, full-stack
+              development, and building meaningful digital solutions. She actively enhances skills in JavaScript,
+              React.js, Node.js, MongoDB, Express.js, and explores AI/ML and Deep Learning.
+            </p>
+            <div class="about-stats">
+              <div class="stat-item">
+                <h3>50+</h3>
+                <p>Projects Completed</p>
+              </div>
+              <div class="stat-item">
+                <h3>3+</h3>
+                <p>Years Experience</p>
+              </div>
+              <div class="stat-item">
+                <h3>100%</h3>
+                <p>Client Satisfaction</p>
+              </div>
+            </div>
+          </div>
+          <div class="about-image">
+            <img src="/placeholder.svg?height=400&width=400" alt="Coding Setup" class="about-img">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Technical Skills</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Frontend</h3>
+            <div class="skills-list">
+              <div class="skill-item">
+                <span class="skill-name">React.js</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">JavaScript</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">HTML/CSS</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="95%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Backend</h3>
+            <div class="skills-list">
+              <div class="skill-item">
+                <span class="skill-name">Node.js</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="80%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Express.js</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="75%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">MongoDB</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="70%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>AI/ML</h3>
+            <div class="skills-list">
+              <div class="skill-item">
+                <span class="skill-name">Python</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">TensorFlow</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="65%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Deep Learning</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="60%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="/placeholder.svg?height=250&width=400" alt="E-commerce Platform">
+              <div class="project-overlay">
+                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>E-commerce Platform</h3>
+              <p>Full-stack e-commerce solution built with MERN stack, featuring user authentication, payment
+                integration, and admin dashboard.</p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">MongoDB</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img src="/placeholder.svg?height=250&width=400" alt="AI Chatbot">
+              <div class="project-overlay">
+                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>AI-Powered Chatbot</h3>
+              <p>Intelligent chatbot using natural language processing to provide customer support and automated
+                responses.</p>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">TensorFlow</span>
+                <span class="tech-tag">Flask</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img src="/placeholder.svg?height=250&width=400" alt="Task Manager">
+              <div class="project-overlay">
+                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Task Management App</h3>
+              <p>Collaborative task management application with real-time updates, team collaboration, and progress
+                tracking.</p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Socket.io</span>
+                <span class="tech-tag">Express</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Experience & Education</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Web Developer Intern</h3>
+              <h4>Andi Software Solutions</h4>
+              <span class="timeline-date">11/June/2025 - Present</span>
+              <p>Developed responsive web applications using html,css and javaScript and collaborated with design teams
+                to implement
+                user-friendly interfaces.</p>
+            </div>
+            <div class="timeline-content">
+              <h3>Full Stack Web Developer Intern</h3>
+              <h4>3 Skill</h4>
+              <span class="timeline-date">11/June/2025 - Present</span>
+              <p>Developed responsive web applications using html,css and javaScript and collaborated with design teams
+                to implement
+                user-friendly interfaces.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>B.Tech Information Technology</h3>
+              <h4>University Name</h4>
+              <span class="timeline-date">2021 - 2025</span>
+              <p>Currently pursuing Bachelor's degree with focus on software development, AI/ML, and data structures &
+                algorithms.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Web Development Bootcamp</h3>
+              <h4>Online Learning Platform</h4>
+              <span class="timeline-date">2022</span>
+              <p>Completed intensive full-stack web development program covering MERN stack and modern development
+                practices.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="section blog-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Latest Blog Posts</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="blog-grid">
+          <article class="blog-card">
+            <div class="blog-image">
+              <img src="/placeholder.svg?height=200&width=350" alt="React Hooks">
+            </div>
+            <div class="blog-content">
+              <div class="blog-meta">
+                <span class="blog-date">Dec 15, 2023</span>
+                <span class="blog-category">React</span>
+              </div>
+              <h3>Mastering React Hooks: A Complete Guide</h3>
+              <p>Learn how to effectively use React Hooks to build modern, functional components with state management
+                and side effects.</p>
+              <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+          <article class="blog-card">
+            <div class="blog-image">
+              <img src="/placeholder.svg?height=200&width=350" alt="AI/ML">
+            </div>
+            <div class="blog-content">
+              <div class="blog-meta">
+                <span class="blog-date">Dec 10, 2023</span>
+                <span class="blog-category">AI/ML</span>
+              </div>
+              <h3>Getting Started with Machine Learning</h3>
+              <p>A beginner's guide to understanding machine learning concepts and implementing your first ML model
+                using Python.</p>
+              <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+          <article class="blog-card">
+            <div class="blog-image">
+              <img src="/placeholder.svg?height=200&width=350" alt="Web Development">
+            </div>
+            <div class="blog-content">
+              <div class="blog-meta">
+                <span class="blog-date">Dec 5, 2023</span>
+                <span class="blog-category">Web Dev</span>
+              </div>
+              <h3>10 Essential Web Development Tips</h3>
+              <p>Improve your web development skills with these essential tips and best practices for modern web
+                applications.</p>
+              <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Get In Touch</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Let's Connect!</h3>
+            <p>I'm always open to discussing new opportunities, interesting projects, or just having a chat about
+              technology.</p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>anjali.kumari@email.com</span>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <span>+91 12345 67890</span>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>New Delhi, India</span>
+              </div>
+            </div>
+            <div class="contact-social">
+              <a href="#" class="social-btn"><i class="fab fa-linkedin"></i></a>
+              <a href="#" class="social-btn"><i class="fab fa-github"></i></a>
+              <a href="#" class="social-btn"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-btn"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" name="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+              <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Anjali Kumari</h3>
+          <p>Passionate software engineer dedicated to creating innovative digital solutions and exploring the frontiers
+            of technology.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">AI/ML Solutions</a></li>
+            <li><a href="#">Consulting</a></li>
+            <li><a href="#">Technical Writing</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Connect</h4>
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 Anjali Kumari. All rights reserved. Made with ❤️ and lots of ☕</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="back-to-top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="script2.js"></script>
+</body>
+
+</html>
